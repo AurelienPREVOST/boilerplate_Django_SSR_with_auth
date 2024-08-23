@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+    <h1>Bonjour {% if user.is_authenticated %}{{ user.username }}{% else %}invité{% endif %}</h1>
+    <p>Bienvenue sur la page d'accueil de notre site vitrine.</p>
+{% endblock %}

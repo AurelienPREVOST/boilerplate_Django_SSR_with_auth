@@ -1,0 +1,38 @@
+# Environnement Python
+*.pyc
+__pycache__/
+env/
+venv/
+ENV/
+.env
+.venv/
+.pytest_cache/
+__pycache__/
+
+# Base de données
+db.sqlite3
+*.sqlite3
+
+# Django Migrations
+**/migrations/
+*.log
+
+# Fichiers secrets
+.env
+*.env
+
+# Paramètres du système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Fichiers spécifiques à l'éditeur de code
+.vscode/
+.idea/
+
+# Fichiers de compilation
+*.class
+*.dll
+*.exe
+*.so
+*.o
+*.a
